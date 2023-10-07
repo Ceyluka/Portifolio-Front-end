@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+    
+
+    /* Variaveis  */
+:root {
+    --cor-primaria: #020200;
+    --cor-secundaria: #ffffff; 
+    
+    --fontes-texto: 'Montserrat' ,sans-serif;
+    --font-titulo: 'Krona One' ,sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 18%
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__links {
+    font-family: var(--fontes-texto);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #eff1f1;
+    text-decoration: none;
+}
+
+.rodape {
+    padding: 24px;
+    color: #dafff5;
+    background-color: #0b1216;
+    text-align: center;
+    font-family: var(--fontes-texto);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.apresentacao {
+    padding: 7% 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__titulo{
+    font-size: 1.9rem;
+    font-family: var(--font-titulo);
+}
+
+.titulo {
+    color: #7cf2d7;
+}
+
+.apresentacao__subtitulo{
+    font-size: 1.25rem;
+    font-family: var(--fontes-texto);
+
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.apresentacao__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #eaecfb;
+    border: 2px solid #1df5df;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fontes-texto);
+    cursor: pointer;
+}
+
+.apresentacao__botoes:hover {
+    background-color: #272727;
+}
+
+.nome{
+    color: rgb(155, 155, 246);
+}
+
+ .apresentacao__imagem {
+    width: 50%;
+ }
+
+ .apresentacao__imagem__botoes  {
+    width: 10%;
+    height: 10%;
+ }
+
+@media (max-width: 1200px ){
+    .cabecalho{
+        padding: 6%;
+    }
+    
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
