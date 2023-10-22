@@ -130,16 +130,17 @@ body {
         padding: 5vw;
         align-items: center;
     }
-    .cabecalho__menu{
-        padding: 3vw;
-        justify-content: center;
-    }
+        .cabecalho__menu{
+            padding: 5vw;
+            justify-content: center;
+        }
 
-    .cabecalho__links{
-        padding: 3vw;
-        font-size: 4vw;
-        font-weight: 4vw;
-    }
+        .cabecalho__links{
+            color: rgb(224, 255, 255);
+            padding: 3vw;
+            font-size:4vw;
+            font-weight: 4vw;
+        }
 
     .apresentacao {
         flex-direction: column-reverse;
@@ -147,36 +148,35 @@ body {
     
     }
 
-    .apresentacao__titulo{
+        .apresentacao__titulo{
+            font-size: 5vw;
+        }
+
+        .apresentacao__subtitulo{
         font-size: 4vw;
-    }
+        }
 
-    .apresentacao__links{
-        padding: 4vw;
-    }
+        .apresentacao__links{
+            padding: 4vw;
+        }
 
-    .apresentacao__links__subtitulo{
-        font-size: 4vw;
-    }
+        .apresentacao__links__subtitulo{
+            font-size: 4vw;
+        }
 
-    .apresentacao__botoes{
-        font-size: 4vw;
-    }
+        .apresentacao__botoes{
+            font-size: 4vw;
+        }
 
-    .apresentacao__subtitulo{
-        padding: 3vw;
-        font-size: 3vw;
-    }
+        .apresentacao__conteudo {
+            padding: 2vw;
+            width: 100%;
+            gap: 15px;
 
-    .apresentacao__conteudo {
-        padding: 2vw;
-        width: 100%;
-        gap: 15px;
-
-    }
+        }
 
     .rodape{
-        font-size: 3vw;
+    font-size: 3vw;
     }
 }
 
