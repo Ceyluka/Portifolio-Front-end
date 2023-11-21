@@ -3,7 +3,7 @@
 
     /* Variaveis  */
 :root {
-    --cor-primaria: #020200;
+    --cor-primaria: #060606;
     --cor-secundaria: #ffffff; 
     
     --fontes-texto: 'Montserrat' ,sans-serif;
@@ -69,7 +69,7 @@ body {
 }
 
 .titulo {
-    color: #7cf2d7;
+    color: #1df5df;
 }
 
 .apresentacao__subtitulo{
@@ -120,6 +120,10 @@ body {
     width: 50%;
  }
 
+ .apresentacao__imagem__design {
+    width: 50%;
+ }
+
  .apresentacao__imagem__botoes  {
     width: 10%;
     height: 10%;
@@ -146,6 +150,10 @@ body {
         flex-direction: column-reverse;
         padding: 5vw;
     
+    }
+
+    .apresentacao__imagem__design {
+        display: none;
     }
 
         .apresentacao__titulo{
